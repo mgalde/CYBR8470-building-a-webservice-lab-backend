@@ -15,3 +15,4 @@ urlpatterns = [
     url(r'^events', csrf_exempt(controllers.Events.as_view())),
     url(r'^', include(router.urls)),
 ]
+
